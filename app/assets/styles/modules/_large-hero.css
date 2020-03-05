@@ -1,7 +1,6 @@
 .large-hero {
   border-bottom: 10px solid $mainBlue;
-  position: relative;
-  
+  position: relative; 
 
   &__image {
     display: block;
@@ -9,6 +8,7 @@
   }
 
   &__text-content {
+    padding-top: 60px;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
